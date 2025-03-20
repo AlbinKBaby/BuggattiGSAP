@@ -1,0 +1,36 @@
+.container{
+    max-width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.bannerText{
+ width: 45%;
+ margin-top: 10px;
+ padding: 10px;
+}
+.bannerText p{
+    margin: 5px;    
+}
+.bannerimg{
+    margin: 10px;
+    width: 55%;
+    height: auto;
+}
+.morePhotos{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.morePhotos i{
+    border: 2px solid  white;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.morePhotos i:hover{
+    color: black;
+    border-color: black;
+    background-color: white;
+}
