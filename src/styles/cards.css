@@ -7,12 +7,16 @@
     
 }
 .card{
-    background-image: url(./images/frntclose.avif);
-    background-size: cover;
+    width: 33%;
     height: 100%;
     margin: 5px 5px 5px 5px;
     color: rgb(243, 243, 243);
     font-size: larger;
     text-align: justify;
-    border-radius: 15px;
+    border-radius: 20px;
+    border-color: black;
+}
+.cardText{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
 }

@@ -2,7 +2,9 @@
 import Header from "./Header"
 import Banner from "./Banner"
 import Cards from "./Cards"
-import Rough from "./Rough"
+import Gallery from "./Gallery"
+
+
 
 
 function App() {
@@ -11,8 +13,8 @@ function App() {
     <>
       <Header />
       <Banner />
-      <Cards/>
-      <Rough/>
+      <Cards />
+      <Gallery />
     </>
   )
 }
